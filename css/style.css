@@ -1,0 +1,69 @@
+
+
+
+section{
+background:  hsl(185, 75%, 39%);
+align-items: center;
+display: flex;
+height: 100vh;
+justify-content: center;
+position: relative;
+text-align: center;
+
+
+}
+
+.card{
+    width: 300px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    height: 350px;
+    
+}
+
+.header{
+    height: 100px;
+    background-image: url(/image/bg-pattern-card.svg);
+}
+
+.img img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: -50px auto 5px auto;
+    overflow: hidden;
+    border: 3px solid white;
+
+
+}
+.age{
+    color: lightgray;
+    margin: 0 20px 0 10px;
+}
+.city{
+    color: lightgray;
+    margin: -10px 0 0 -20px;
+    border-bottom: 2px solid hsl(0, 3%, 86%); 
+
+}
+
+.footer-box{
+    display: flex;
+    margin-left: 48px;
+    margin-top: -10px;
+}
+.fig{
+    margin-right: 10px;
+    padding-right: 20px;
+
+}
+h1,h4{
+    font-size: 18px;
+}
+h4{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
